@@ -1,0 +1,6 @@
+{
+    "type": "feature",
+    "category": "Amazon QuickSight",
+    "contributor": "",
+    "description": "Adds support for SEMISTRUCT to InputColumn Type"
+}
