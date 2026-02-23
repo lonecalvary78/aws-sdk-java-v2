@@ -1,0 +1,6 @@
+{
+    "type": "feature",
+    "category": "AWS Control Catalog",
+    "contributor": "",
+    "description": "Updated ExemptedPrincipalArns parameter documentation for improved accuracy"
+}
