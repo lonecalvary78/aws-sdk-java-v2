@@ -1,0 +1,6 @@
+{
+    "type": "feature",
+    "category": "AWS Elemental Inference",
+    "contributor": "",
+    "description": "Initial GA launch for AWS Elemental Inference including capabilities of Smart Crop and Live Event Clipping"
+}
