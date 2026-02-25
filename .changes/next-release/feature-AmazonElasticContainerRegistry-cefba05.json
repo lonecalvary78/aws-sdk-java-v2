@@ -1,6 +1,0 @@
-{
-    "type": "feature",
-    "category": "Amazon Elastic Container Registry",
-    "contributor": "",
-    "description": "Update repository name regex to comply with OCI Distribution Specification"
-}

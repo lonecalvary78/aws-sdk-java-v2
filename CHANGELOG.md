@@ -1,4 +1,29 @@
  #### 👋 _Looking for changelogs for older versions? You can find them in the [changelogs](./changelogs) directory._
+# __2.42.2__ __2026-02-25__
+## __AWS Batch__
+  - ### Features
+    - AWS Batch documentation update for service job capacity units.
+
+## __AWS SDK for Java v2__
+  - ### Features
+    - Updated endpoint and partition metadata.
+
+## __AWS WAFV2__
+  - ### Features
+    - AWS WAF now supports GetTopPathStatisticsByTraffic that provides aggregated statistics on the top URI paths accessed by bot traffic. Use this operation to see which paths receive the most bot traffic, identify the specific bots accessing them, and filter by category, organization, or bot name.
+
+## __Amazon Elastic Compute Cloud__
+  - ### Features
+    - Add support for EC2 Capacity Blocks in Local Zones.
+
+## __Amazon Elastic Container Registry__
+  - ### Features
+    - Update repository name regex to comply with OCI Distribution Specification
+
+## __Amazon Neptune__
+  - ### Features
+    - Neptune global clusters now supports tags
+
 # __2.42.1__ __2026-02-24__
 ## __AWS Elemental Inference__
   - ### Features
