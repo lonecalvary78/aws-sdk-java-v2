@@ -1,0 +1,6 @@
+{
+    "type": "feature",
+    "category": "AWS SecurityHub",
+    "contributor": "",
+    "description": "Security Hub added EXTENDED PLAN integration type to DescribeProductsV2 and added metadata.product.vendor name GroupBy support to GetFindingStatisticsV2"
+}
