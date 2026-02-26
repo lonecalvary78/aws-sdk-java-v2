@@ -1,4 +1,33 @@
  #### 👋 _Looking for changelogs for older versions? You can find them in the [changelogs](./changelogs) directory._
+# __2.42.3__ __2026-02-26__
+## __AWS Backup Gateway__
+  - ### Features
+    - This release updates GetGateway API to include deprecationDate and softwareVersion in the response, enabling customers to track gateway software versions and upcoming deprecation dates.
+
+## __AWS Marketplace Entitlement Service__
+  - ### Features
+    - Added License Arn as a new optional filter for GetEntitlements and LicenseArn field in each entitlement in the response.
+
+## __AWS SecurityHub__
+  - ### Features
+    - Security Hub added EXTENDED PLAN integration type to DescribeProductsV2 and added metadata.product.vendor name GroupBy support to GetFindingStatisticsV2
+
+## __AWSMarketplace Metering__
+  - ### Features
+    - Added LicenseArn to ResolveCustomer response and BatchMeterUsage usage records. BatchMeterUsage now accepts LicenseArn in each UsageRecord to report usage at the license level. Added InvalidLicenseException error response for invalid license parameters.
+
+## __Amazon EC2 Container Service__
+  - ### Features
+    - Adding support for Capacity Reservations for ECS Managed Instances by introducing a new "capacityOptionType" value of "RESERVED" and new field "capacityReservations" for CreateCapacityProvider and UpdateCapacityProvider APIs.
+
+## __Amazon Elastic Compute Cloud__
+  - ### Features
+    - Add c8id, m8id and hpc8a instance types.
+
+## __Apache 5 HTTP Client__
+  - ### Features
+    - Update `httpcore5` to `5.4.1`.
+
 # __2.42.2__ __2026-02-25__
 ## __AWS Batch__
   - ### Features
