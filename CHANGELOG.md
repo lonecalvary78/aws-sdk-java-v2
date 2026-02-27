@@ -1,4 +1,49 @@
  #### 👋 _Looking for changelogs for older versions? You can find them in the [changelogs](./changelogs) directory._
+# __2.42.4__ __2026-02-27__
+## __ARC - Region switch__
+  - ### Features
+    - Post-Recovery Workflows enable customers to maintain comprehensive disaster recovery automation. This allows customer SREs and leadership to have complete recovery orchestration from failover through post-recovery preparation, ensuring Regions remain ready for subsequent recovery events.
+
+## __AWS Batch__
+  - ### Features
+    - This feature allows customers to specify the minimum time (in minutes) that AWS Batch keeps instances running in a compute environment after all jobs on the instance complete
+
+## __AWS Health APIs and Notifications__
+  - ### Features
+    - Updates the regex for validating availabilityZone strings used in the describe events filters.
+
+## __AWS Resource Access Manager__
+  - ### Features
+    - Resource owners can now specify ResourceShareConfiguration request parameter for CreateResourceShare API including RetainSharingOnAccountLeaveOrganization boolean parameter
+
+## __Amazon Bedrock__
+  - ### Features
+    - Added four new model lifecycle date fields, startOfLifeTime, endOfLifeTime, legacyTime, and publicExtendedAccessTime. Adds support for using the Converse API with Bedrock Batch inference jobs.
+
+## __Amazon Cognito Identity Provider__
+  - ### Features
+    - Cognito is introducing a two-secret rotation model for app clients, enabling seamless credential rotation without downtime. Dedicated APIs support passing in a custom secret. Custom secrets need to be at least 24 characters. This eliminates reconfiguration needs and reduces security risks.
+
+## __Amazon Connect Customer Profiles__
+  - ### Features
+    - This release introduces an optional SourcePriority parameter to the ProfileObjectType APIs, allowing you to control the precedence of object types when ingesting data from multiple sources. Additionally, WebAnalytics and Device have been added as new StandardIdentifier values.
+
+## __Amazon Connect Service__
+  - ### Features
+    - Deprecate EvaluationReviewMetadata's CreatedBy and CreatedTime, add EvaluationReviewMetadata's RequestedBy and RequestedTime
+
+## __Amazon Keyspaces Streams__
+  - ### Features
+    - Added support for Change Data Capture (CDC) streams with Duration DataType.
+
+## __Amazon Transcribe Streaming Service__
+  - ### Features
+    - AWS Transcribe Streaming now supports specifying a resumption window for the stream through the SessionResumeWindow parameter, allowing customers to reconnect to their streams for a longer duration beyond stream start time.
+
+## __odb__
+  - ### Features
+    - ODB Networking Route Management is a feature improvement which allows for implicit creation and deletion of EC2 Routes in the Peer Network Route Table designated by the customer via new optional input. This feature release is combined with Multiple App-VPC functionality for ODB Network Peering(s).
+
 # __2.42.3__ __2026-02-26__
 ## __AWS Backup Gateway__
   - ### Features
