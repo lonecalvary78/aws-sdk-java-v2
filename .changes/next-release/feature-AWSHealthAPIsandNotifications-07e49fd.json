@@ -1,0 +1,6 @@
+{
+    "type": "feature",
+    "category": "AWS Health APIs and Notifications",
+    "contributor": "",
+    "description": "Updates the regex for validating availabilityZone strings used in the describe events filters."
+}
