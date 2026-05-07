@@ -1,4 +1,37 @@
  #### 👋 _Looking for changelogs for older versions? You can find them in the [changelogs](./changelogs) directory._
+# __2.44.4__ __2026-05-07__
+## __AWS Billing and Cost Management Data Exports__
+  - ### Features
+    - With this release, customers can configure their data exports to generate additional integration artifacts for Athena and Redshift.
+
+## __AWS Invoicing__
+  - ### Features
+    - Updated ListInvoiceSummaries API to add new ReceiverRole filter in Request and Response
+
+## __AWS SDK for Java v2__
+  - ### Features
+    - Updated endpoint and partition metadata.
+
+## __Amazon Bedrock AgentCore__
+  - ### Features
+    - Launching AgentCore payments - a capability that provides secure, instant microtransaction payments for AI agents to access paid APIs, MCP servers, and content. It handles payment processing for x402 protocol, payment limits, and 3P wallet integrations with Coinbase CDP and Stripe (Privy).
+
+## __Amazon Bedrock AgentCore Control__
+  - ### Features
+    - Launching AgentCore payments - a capability that provides secure, instant microtransaction payments for AI agents to access paid APIs, MCP servers, and content. It handles payment processing for x402 protocol, payment limits, and 3P wallet integrations with Coinbase CDP and Stripe (Privy).
+
+## __Amazon Elastic Compute Cloud__
+  - ### Features
+    - DescribeInstanceTypes now accepts an IncludeUnsupportedInRegion parameter. When set, the response also lists instance types that are not available in the current Region. Each instance type includes a SupportedInRegion field indicating its regional availability.
+
+## __Amazon GuardDuty__
+  - ### Features
+    - This is a documentation update
+
+## __Amazon Route 53 Resolver__
+  - ### Features
+    - Adds supports for DNS64 on inbound endpoints and IPv6 forwarding through the internet gateway (IGW) on outbound endpoints, making it easier to manage hybrid DNS across IPv4 and IPv6 networks.
+
 # __2.44.3__ __2026-05-06__
 ## __AWS Glue__
   - ### Features

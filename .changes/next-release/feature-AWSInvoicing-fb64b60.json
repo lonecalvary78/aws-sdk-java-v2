@@ -1,6 +1,0 @@
-{
-    "type": "feature",
-    "category": "AWS Invoicing",
-    "contributor": "",
-    "description": "Updated ListInvoiceSummaries API to add new ReceiverRole filter in Request and Response"
-}
